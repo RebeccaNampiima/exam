@@ -1,0 +1,195 @@
+body {
+  width: 100%;
+  height:10000px;
+}
+
+.section1 {
+  width: 100%;
+  height: 821px;
+  background-image: url("../images/image1.png");
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.image1 {
+  widows: 100%;
+  height: 821px;
+}
+
+.firstheader {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header {
+  color: white;
+  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 48px;
+  justify-items: center;
+}
+
+.header2 {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+}
+
+.nav1 {
+  width: 100%;
+  height: 100px;
+  background-color:#5474FD;
+}
+
+ul {
+  margin-left: 10px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  line-height: 100px;
+  position: relative;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 0 20px;
+  color: white;
+  font-family: 'Aleo', serif;
+}
+
+
+ul li a :hover{
+   background: red;
+
+}
+ul li a::before{
+ content: '';
+ display: block;
+ height: 5px;
+ width: 0;
+ background-color: red;
+ position: absolute;
+ margin-top: 20px;
+}
+
+ul li a:hover::before{
+ width: 100%;
+ transition: all case-in-out 250ms;
+}
+
+.section3{
+  width:100%;
+  height:900px;
+  background-image: url("../images/background2.png");
+}
+
+.whyus{
+  margin-left: 200px;
+  margin-bottom: 200px;
+  
+  
+}
+
+.why{
+font-family: Aleo;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 26px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+top: 60pxs;
+
+}
+
+.paragraph{
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+display: flex;
+align-items: center;
+letter-spacing: 1.6px;
+color: #E8E8E8;
+
+
+}
+.button{
+font-family: Aleo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+display: flex;
+align-items: center;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: rgb(85, 85, 212);
+border-radius: 10pxs;
+width: 179px;
+height: 26px;
+
+}
+.image2{
+justify-content: flex-end;
+}
+
+.section4{
+  widows: 100%;
+  height:337pxs;
+  background-color: #333333;
+  display: flex;
+}
+
+.search_select{
+  display: flex;
+}
+
+
+
+.search2{
+  color: white;
+ 
+}
+
+.select_places{
+  color: white;
+}
+
+.book_enjoy{
+  color: white;
+
+}
+
+.section5{
+  width: 100%;
+  height: 700px;
+  background-image: url("../images/background3.png");
+  
+}
+
+.section6{
+  width: 100%;
+  height: 700px;
+ background-image: url("../images/background4.png");
+  
+}
+
+@media (max-width: 414px) {
+  .image1 {
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
